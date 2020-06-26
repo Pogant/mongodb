@@ -41,8 +41,8 @@ var c = new Crawler({
 index = 143650;
 index = 130000000;
 
-cron.schedule("*/1 * * * * *", function() {
-  for(var i = 0; i < 1; i++) {
+cron.schedule("*/2 * * * * *", function() {
+  for(var i = 0; i < 50; i++) {
     index++;
     console.log("Getting index: " + index);
     var url = 'https://www.pond5.com/stock-images/photos/item/' + index + '-';
