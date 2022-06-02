@@ -19,6 +19,6 @@
     "mongoose": "^5.9.15",
     "node-cron": "^2.0.3",
     "persistent-counter": "^0.1.5",
-    "protobufjs": "^6.9.0"
+    "protobufjs": "^6.11.3"
   }
 }
